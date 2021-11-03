@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-image:url("images/bg4.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.navbar{
+    padding:20px;
+}
+a:link,a:visited{
+    color:black;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a:hover,a:active{
+    color:maroon;
+    /* background-color:whitesmoke; */
+    text-decoration: line;
+}
+
+.col-left{
+    position:relative;
+    padding-left:0px ;
+    padding-top: 5px;
+    padding-right: 280px;
+    display:flex;
+
+}
+.col-right{
+    position:absolute;
+    padding-top: 0px;
+    padding-left:600px; 
+}

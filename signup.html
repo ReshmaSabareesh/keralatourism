@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-left">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="col-right">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="districts.html">EXPLORE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="signup.html">SIGN UP</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="tm-row">
+            <div class="tm-col-right">
+                <section class="tm-content tm-contact">
+                    <h2 class="mb-4 tm-content-title">Welcome...!</h2>
+                    <p class="mb-85">Please fill this form to create a contact...</p>
+                    <form action="/action_page.php">
+                        <div class="container">
+                         <label for="email"><b>Email</b></label>
+                          <input type="text" placeholder="Enter Email" name="email" required>
+                      
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                          <label for="psw-repeat"><b>Repeat Password</b></label>
+                          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                          
+                          <label>
+                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                          </label>
+                          
+                          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                      
+                          <div class="clearfix">
+                            <button type="button" class="cancelbtn">Cancel</button>
+                            <button type="submit" class="signupbtn">Sign Up</button>
+                          </div>
+                        </div>
+                      </form>
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+</html>
