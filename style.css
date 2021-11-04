@@ -3,24 +3,32 @@
     padding: 0px;
 }
 body{
-    background-image: url("images/bg3.jpg");
+    background-image: url("images/kathakali.png");
     background-size: cover;
 }
-
-a:link,a:visited{
+a:link, a:visited {
     color:black;
-    display: inline-block;
-    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+  }
 
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   
 }
 
-a:hover,a:active{
-    color:maroon;
-    /* background-color:whitesmoke; */
-    text-decoration: line;
+.tm-site-footer {
+    padding: 40px 0 20px;
+    max-width: 660px;
+    font-size: 0.95rem;
 }
+
+.tm-col-footer { padding-left: 450px; }
 
 .col-left{
     position:relative;
@@ -51,60 +59,7 @@ a:hover,a:active{
     padding-top:25px;
 
 }
-/* Contact */
-.form-control,
-textarea {    
-    color: white;
-    background-color: transparent;
-    background-clip: padding-box;
-    border: none;
-    border-bottom: 1px solid #999A9B;
-    border-radius: 0;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    padding: 10px 0;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-}
-
-.form-control:focus {
-    color: white;
-    background-color: transparent;    
-    box-shadow: none;
-    border-color: #9CC;
-    outline: none;
-}
 
 .mb-85 { margin-bottom: 85px; }
-.tm-contact-main { max-width: 690px; }
 
-.tm-contact {
-    max-width: 420px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form-control::-webkit-input-placeholder { color: white; } /* Edge */  
-.form-control:-ms-input-placeholder { color: white; } /* Internet Explorer 10-11 */  
-.form-control::placeholder { color: white; }
-
-.card{
-    /* position:relative; */
-    padding-top: 500 px;
-    display: flex;
-}
-
-.carouselExampleCaptions {
-    padding-top: 100px;
-     height: 350px;
-    overflow: hidden;
-    width: 100%;
-  }
-  
-  .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
 

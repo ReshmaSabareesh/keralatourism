@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sign up</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -20,59 +18,85 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-left">
-                <img src="images/logo.png" alt="logo">
-            </div>
-            <div class="col-right">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="districts.html">EXPLORE</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">LOGIN</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="signup.html">SIGN UP</a>
-                    </li>
-                  </ul>
-            </div>
-        </div>
-        <div class="tm-row">
-            <div class="tm-col-right">
-                <section class="tm-content tm-contact">
-                    <h2 class="mb-4 tm-content-title">Welcome...!</h2>
-                    <p class="mb-85">Please fill this form to create a contact...</p>
-                    <form action="/action_page.php">
-                        <div class="container">
-                         <label for="email"><b>Email</b></label>
-                          <input type="text" placeholder="Enter Email" name="email" required>
-                      
-                          <label for="psw"><b>Password</b></label>
-                          <input type="password" placeholder="Enter Password" name="psw" required>
-                      
-                          <label for="psw-repeat"><b>Repeat Password</b></label>
-                          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-                          
-                          <label>
-                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-                          </label>
-                          
-                          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-                      
-                          <div class="clearfix">
-                            <button type="button" class="cancelbtn">Cancel</button>
-                            <button type="submit" class="signupbtn">Sign Up</button>
-                          </div>
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col" style="padding-left: -1px;">
+                    <div class="tm-site-header media">
+                        <div class="logo">
+                            <img src="images/logo.png" alt="logo" height="80px" width="80px">
                         </div>
-                      </form>
+                    </div>
+                </div>
+                <div class="tm-col">
+                    <br>
+                    <nav class="navbar navbar-expand-lg" style="padding-left: 450px; padding-top: 6px;" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item active pl-5">
+                                    <a class="nav-link tm-nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item pl-5">
+                                    <a class="nav-link tm-nav-link" href="districts.html">Explore</a>
+                                </li>
+                                <li class="nav-item pl-5">
+                                    <a class="nav-link tm-nav-link" href="login.html" >Login</a>
+                                </li>                            
+                                <li class="nav-item pl-5">
+                                    <a class="nav-link tm-nav-link" href="signup.html">Signup</a>
+                                </li>
+                            </ul>                            
+                        </div>                        
+                    </nav>
+                </div>
             </div>
+        <div class="row pt-5">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Enter Username</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" >
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Enter email id </label>
+                  <input type="email id" class="form-control" id="exampleInputEmail1" placeholder="Email-Id">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Enter Phone number</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Phone number">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Enter password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Re-enter password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Re-enter Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1" style="font-family:Georgia, 'Times New Roman', Times, serif;">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button><br>
+                <button type="button" class="btn btn-link">I have an account..</button>
+              </form>
         </div>
-        
-
+          <!-- Footer -->
+        <div class="tm-row">
+            <div class="tm-col-right tm-col-footer">
+                <footer class="tm-site-footer text-right">
+                    <p class="mb-0" style="color: rgb(199, 199, 168); font-family: Georgia, 'Times New Roman', Times, serif;">Website Design By 
+                    
+                | <a rel="nofollow" target="_parent" href="#" class="tm-text-link" style="color: black; font-size:small ;">RESHMA E R</a></p>
+                </footer>
+            </div>        
+        </div>  
+    
+       
     </div>
+   
 </body>
 </html>
